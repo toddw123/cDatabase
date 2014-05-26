@@ -83,8 +83,7 @@ class cDatabase
 	}
 
 
-	//uploadToFTP("ftp.hipdash.org", "webinaradmin@hipdash.org", "P3ngu!ns", "/join-tomeeting/registration/WebinarDB.txt");
-	public function uploadToFTP($server, $user, $pass, $path)
+	]public function uploadToFTP($server, $user, $pass, $path)
 	{
 		//FTP upload info
     	$conn_id = ftp_connect ($server);
